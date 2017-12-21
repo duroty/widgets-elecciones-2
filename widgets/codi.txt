@@ -1,53 +1,80 @@
-<link rel="stylesheet" href="https://cdn.rawgit.com/duroty/pre-widget-elecciones-2017/master/widgets/css/style.css">
-<script src="https://www.gstatic.com/charts/loader.js"></script>
-<script src="https://cdn.rawgit.com/duroty/pre-widget-elecciones-2017/master/widgets/js/app.js"></script>
+<!-- WIDGET ELECCIONES -->
+<style>
+.party-color.CS {
+background:#ef7a36;
+}
+.party-color.ERC {
+background:#deae40;
+}
+.party-color.JxCAT {
+background:#014984;
+}
+.party-color.CUP {
+background:#f2e919;
+}
+.party-color.CatComu {
+background:#612d62;
+}
+.party-color.PSC {
+background:#ef1920;
+}
+.party-color.PP {
+background:#00a3df;
+}
+.party-color.PACMA {
+background:#5d8aa8;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.rawgit.com/duroty/widgets-elecciones-2/master/widgets/css/style.css"> 
+<script src="https://cdn.rawgit.com/duroty/widgets-elecciones-2/master/widgets/js/app.js"></script>
 <div class="container eleccionesdrt">
-  <div class="row">
-    <div class="col-md-12">
-      <section class="section-elecciones">
-        <h1>
-          <a href="http://www.lavanguardia.com" title="Elecciones 21D">Elecciones 21D</a>
-        </h1>
-        <div class="float-right">
-          <a href="http://www.lavanguardia.com" title="Elecciones 21D" class="btn-all-results">Todos los resultados</a>
-        </div>
-        <div class="clearfix"></div>
-      </section>
-    </div>
-  </div>
+<div class="row">
+<div class="col-md-12">
+<section class="section-elecciones">
+<h1>
+<a href="http://www.lavanguardia.com" title="Elecciones 21D">Elecciones 21D</a>
+</h1>
+<div class="float-right">
+<a href="http://www.lavanguardia.com" title="Elecciones 21D" class="btn-all-results">Todos los resultados</a>
+</div>
+<div class="clearfix"></div>
+</section>
+</div>
+</div>
 </div>
 <div id="chart-container" class="container eleccionesdrt">
- <div class="row">
-  <div class="col-md-6">
-   <div class="chart-container">
-    <div id="chart-title" class="chart-title"></div>
-    <div id="chart" class="chart chart-temp">
-     <span class="loading">Cargando ...</span>
-   </div>
- </div>
+<div class="row">
+<div class="col-md-6">
+<div class="chart-container">
+<div id="chart-title" class="chart-title"></div>
+<div id="chart" class="chart chart-temp">
+<span class="loading">Cargando ...</span>
+</div>
+</div>
 </div>
 <div class="col-md-2">
- <div id="chart-legend" class="chart-legend">
-  <p>Partidos</p>
-  <span class="party"><span class="party-color" style="background:#ef7a36"></span>Cs</span>
-  <span class="party"><span class="party-color" style="background:#deae40"></span>ERC</span>
-  <span class="party"><span class="party-color" style="background:#014984"></span>JxCAT</span>
-  <span class="party"><span class="party-color" style="background:#f2e919"></span>CUP</span>
-  <span class="party"><span class="party-color" style="background:#612d62"></span>CatComú</span>
-  <span class="party"><span class="party-color" style="background:#ef1920"></span>PSC</span>
-  <span class="party"><span class="party-color" style="background:#00a3df"></span>PP</span>
-  <span class="party"><span class="party-color" style="background:#5d8aa8"></span>PACMA</span>
+<div id="chart-legend" class="chart-legend">
+<p>Partidos</p>
+<span class="party"><span class="party-color CS" style="background:#ef7a36"></span>Cs</span>
+<span class="party"><span class="party-color ERC" style="background:#deae40"></span>ERC</span>
+<span class="party"><span class="party-color JxCAT" style="background:#014984"></span>JxCAT</span>
+<span class="party"><span class="party-color CUP" style="background:#f2e919"></span>CUP</span>
+<span class="party"><span class="party-color CatComu" style="background:#612d62"></span>CatComú</span>
+<span class="party"><span class="party-color PSC" style="background:#ef1920"></span>PSC</span>
+<span class="party"><span class="party-color PP" style="background:#00a3df"></span>PP</span>
+<span class="party"><span class="party-color PACMA" style="background:#5d8aa8"></span>PACMA</span>
 </div>
 </div>
 <div class="col-md-4">
- <div class="search-box">
-  <p class="copy-search">BUSCAR POR MUNICIPIO</p>
-  <input id="autocomplete" placeholder="Introduce el municipio" />
+<div class="search-box">
+<p class="copy-search">BUSCAR POR MUNICIPIO</p>
+<input id="autocomplete" placeholder="Introduce el municipio" />
 </div>
 <div id="table-results" class="table-results">
-  <span class="loading">Cargando ...</span>
+<span class="loading">Cargando ...</span>
 </div>
 </div>
 </div>
 </div>
 <div class="container eleccionesdrt"><div class="row"><div class="col-md-12"><div class="chart-container-border"></div></div></div></div>
+<!-- END WIDGET ELECCIONES -->

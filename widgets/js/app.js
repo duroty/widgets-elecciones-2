@@ -60,7 +60,7 @@ DRTEleccionesCat = (function() {
     	$.ajax({
 		    url: url,
 		    dataType: "json",
-		    timeout: 5000
+		    timeout: 20000
 		}).done(function(data) {
 			if (!data.transversales || !data.resultados || data.transversales['escrutado'] <= 0) {
 				$container.addClass("no-results");
